@@ -24,15 +24,15 @@
 // #define TFT_DC        2
 
 // ESP32-WROOM
-#define TFT_CS        5
-#define TFT_RST       4
-#define TFT_DC        2
+// #define TFT_CS        5
+// #define TFT_RST       4
+// #define TFT_DC        2
 
 Adafruit_ST7796S_kbv tft = Adafruit_ST7796S_kbv(TFT_CS, TFT_DC, TFT_RST);
 
 // WiFi-Daten
-char Router[] = "FRITZ!Box 7590 LB";
-char Passwort[] = "anea1246";
+char Router[] = "Router_SSID";
+char Passwort[] = "xxxxxxxx";
 
 // Variablen des TFTs (Höhe, Breite, Radius)
 const int MitteHoehe = 160;
