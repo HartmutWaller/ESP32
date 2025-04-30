@@ -19,8 +19,8 @@ DHT dht(SENSOR_DHT, SensorTyp);
 TFT_eSPI tft = TFT_eSPI();
 
 // WiFi-Daten
-char Router[] = "FRITZ!Box 7590 LB";
-char Passwort[] = "anea1246";
+char Router[] = "Router_SSID;
+char Passwort[] = "xxxxxxxx";
 
 // Variablen des TFTs (Höhe, Breite, Radius)
 const int MitteHoehe = 120;
